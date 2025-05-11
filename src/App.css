@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -27,12 +27,26 @@
 .App-link {
   color: #61dafb;
 }
+ */
+/* App.css */
 
-@keyframes App-logo-spin {
+.box {
+  border: 1px solid red;
+  width: 100px;
+  height: 100px;
+}
+.container {
+  display: flex;
+  flex-direction: column; /*위아래 정렬*/
+  align-items: center; /*가로 가운데*/
+  justify-content: center; /*세로로 가운데*/
+  height: 100vh; /*전체화면 높이 */
+}
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
